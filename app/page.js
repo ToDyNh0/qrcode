@@ -242,10 +242,9 @@ export default function Home() {
 
         <footer className="colophon">
           <p className="credit">
-            feito por <strong>Naibu</strong> pra ajudar voces no projeto de extenção{' '}
+            feito por <strong>Naibu</strong> pra ajudar voces no projeto de extensão{' '}
             <span className="heart">&lt;3</span>
           </p>
-          <p className="footnote">Nada sai deste dispositivo</p>
         </footer>
       </main>
     </>

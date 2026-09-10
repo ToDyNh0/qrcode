@@ -28,7 +28,6 @@
   --mat-line-2: rgba(255, 255, 255, 0.05);
 
   --danger: #b3200e;
-  --ok: #2f7d4f;
 
   --r: 3px;
   --r-sm: 2px;
@@ -59,7 +58,6 @@
     --mat-line-2: rgba(255, 255, 255, 0.04);
 
     --danger: #ff6a52;
-    --ok: #4bb377;
 
     color-scheme: dark;
   }
@@ -178,41 +176,6 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.16em;
   color: var(--ink-muted);
-}
-
-.specs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0;
-  border: 1px solid var(--rule);
-  border-radius: var(--r-sm);
-  overflow: hidden;
-}
-
-.specs span {
-  font-family: var(--mono);
-  font-size: 10px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.11em;
-  color: var(--ink-2);
-  padding: 6px 12px;
-  border-left: 1px solid var(--rule);
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  background: var(--paper-2);
-}
-
-.specs span:first-child {
-  border-left: 0;
-}
-
-.specs .tick {
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--ok);
 }
 
 .workspace {

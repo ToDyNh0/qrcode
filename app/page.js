@@ -131,14 +131,6 @@ export default function Home() {
               <p className="strapline">Gerador de folhas para recorte</p>
             </div>
           </div>
-          <div className="specs">
-            <span>
-              <span className="tick" aria-hidden="true" />
-              Roda no navegador
-            </span>
-            <span>Sem upload</span>
-            <span>Escala 1:1</span>
-          </div>
         </header>
 
         <div className="workspace">
